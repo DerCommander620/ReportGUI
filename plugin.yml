@@ -1,0 +1,15 @@
+name: ReportGUI
+version: 1.0.0
+main: DerCommander610\Broadcast\Main
+api: [4.17.0]
+author: DerCommander610
+
+commands:
+  report:
+   descripton: "reporte einen spiel brecher"
+   pemission: report.cmd
+permissions:
+   report.cmd:
+    default: true
+   report.view:
+    default: op      
