@@ -9,7 +9,7 @@ use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase {
 
-    public function onEnable(){
+    public function onEnable(): void {
         @mkdir($this->getDataFolder());
         $this->saveDefaultConfig();
         $this->getResource("config.yml");
