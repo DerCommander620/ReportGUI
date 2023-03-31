@@ -4,7 +4,7 @@ namespace DerCommander610\Report;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use pocketmine\Player;
+use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase {
@@ -30,7 +30,7 @@ class Main extends PluginBase {
     }
 
     public function reportUI($player){
-        $form = $this->getServer()->getPluginManager()->getPlugin("FormAPI")->createCustomForm(function (Player $player, array $data = null)){
+        $form = $this->getServer()->getPluginManager()->getPlugin("FormAPI")->createCustomForm(function (Player $player, array $data = null){
             if($data === null) {
             return true;
 
