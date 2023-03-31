@@ -7,7 +7,7 @@ author: DerCommander610
 commands:
   report:
    descripton: "report a hacker or rule breaker"
-   pemission: report.cmd
+   permission: report.cmd
 permissions:
    report.cmd:
     default: true
