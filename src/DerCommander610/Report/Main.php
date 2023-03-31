@@ -20,7 +20,7 @@ class Main extends PluginBase {
         switch($command->getName()){
             case "report":
               if($sender instanceof Player){
-                 $this->reportUI($player)
+                 $this->reportUI($sender);
               }  else {
                   $sender->sendMessage("So?");
               }
