@@ -6,7 +6,7 @@ author: DerCommander610
 
 commands:
   report:
-   descripton: "reporte einen spiel brecher"
+   descripton: "report a hacker or rule breaker"
    pemission: report.cmd
 permissions:
    report.cmd:
