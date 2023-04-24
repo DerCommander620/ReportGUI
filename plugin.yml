@@ -1,7 +1,7 @@
 name: ReportGUI
 version: 1.0.0
 main: DerCommander610\Report\Main
-api: [5.0.0]
+api: [4.19.3]
 author: DerCommander610
 
 commands:
