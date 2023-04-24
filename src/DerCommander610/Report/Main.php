@@ -31,7 +31,8 @@ class Main extends PluginBase {
     }
 
     public function reportUI($player){
-        $form = $this->getServer()->getPluginManager()->getPlugin("FormAPI")->createCustomForm(function (Player $player, array $data = null){
+        $api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
+        $form = $api->createCustomForm(function (Player $player, array $data = null){
             if($data === null) {
             return true;
 
